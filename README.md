@@ -1,4 +1,4 @@
-# **Posgrado Estadistica 2025**
+# :fire: **Posgrado Estadistica 2025** :fire:
 Material del curso de Posgrado de Experimentación y Métodos Estadísticos en MCF y DOMRN.
 
 ## Contenido del curso :pencil2:
