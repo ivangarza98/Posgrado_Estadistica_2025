@@ -1,6 +1,11 @@
-temperatura <- read.csv("C:/Analisis_Estadistico_2022/Estadística Doctorado 2025
-                        /Posgrado_Estadistica_2025/temperatura.csv")
-View(temperatura)
+# Jorge Ivan Garza Aldape
+# 21/08/2025
+# 1677695
+
+# Importar datos locales --------------------------------------------------
+
+temperatura <- read.csv("temperatura.csv")
+View(temperatura) # Abre el objeto en una pestaña
 head(temperatura) # Muestra las primeras 6 filas de la base de datos en la consola.
 dim(temperatura) # Muestra cuantas filas y columnas tiene la base de datos.
 names(temperatura) # Muestra cuales son los nombres de los encabezados.
@@ -11,3 +16,17 @@ names(temperatura) <- c("Anual", "Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul"
 
 temperatura$media_anual <- rowMeans(temperatura[,2:13])
 head(temperatura)
+
+colores <- c("blue", "skyblue", "white")
+
+temp <- temperatura[ ,2:13]
+boxplot(temp, col = colores,
+        main = "Medias de temperatura del 2000 al 2020",
+        xlab = "Meses", ylab = "Temperatura (°C)")
+
+# Importar datos web ------------------------------------------------------
+
+url <- "https://repodatos.atdt.gob.mx/api_update/senasica/actividades_inspeccion_movilizacion/29_actividades-inspeccion-movilizacion.csv"
+
+senasica <- read.csv(url, header = T)
+View(senasica)
