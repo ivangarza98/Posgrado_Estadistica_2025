@@ -17,3 +17,9 @@ Material del curso de Posgrado de Experimentación y Métodos Estadísticos en M
   + :computer: Copiar url de una base de datos web
   + :computer: Mostrar los datos web en R
   + :computer: Analizar los datos visual y estadisticamente
+  
+**Semana 4** (28/08/2025): Pruebas estadisticas :bangbang:
+  + :computer: Aplicar subconjuntos
+  + :computer: Revisar normalidad de datos
+  + :computer: Revisar homogeneidad de datos
+  + :computer: Medir el efecto Cohen
