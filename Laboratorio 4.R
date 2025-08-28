@@ -22,5 +22,3 @@ colores <- c("yellow", "blue")
 boxplot(calidad$IE~ calidad$Tratamiento, col = colores,
         main = "Efecto del fertilizante sobre plantulas",
         xlab = "Tratamiento", ylab = "Índice de esbeltez")
-
-jajaja
