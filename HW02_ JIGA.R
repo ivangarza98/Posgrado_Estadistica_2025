@@ -63,6 +63,8 @@ cohen.d(versicolor, virginica)
 
 # Visualizacion -----------------------------------------------------------
 
+iris_sub$Species <- droplevels(iris_sub$Species)
+
 boxplot(Petal.Length ~ Species, data = iris_sub,
         col = c("lightblue", "lightgreen"),
         main = "Comparación de Petal.Length entre Iris versicolor e Iris virginica",
