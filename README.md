@@ -23,3 +23,8 @@ Material del curso de Posgrado de Experimentación y Métodos Estadísticos en M
   + :computer: Revisar normalidad de datos
   + :computer: Revisar homogeneidad de datos
   + :computer: Medir el efecto Cohen
+  
+**Semana 5** (04/09/2025): Pruebas estadisticas :bangbang:
+  + :computer: Media móvil
+  + :computer: Pruebas t para muestras independientes
+  + :computer: Media teoretica
