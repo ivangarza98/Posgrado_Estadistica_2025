@@ -28,3 +28,10 @@ Material del curso de Posgrado de Experimentación y Métodos Estadísticos en M
   + :computer: Media móvil
   + :computer: Pruebas t para muestras independientes
   + :computer: Media teoretica
+  
+**Semana 6** (11/09/2025): No hubo clase :sweat_smile:
+
+**Semana 7** (18/09/2025): Tres muestras de un experimento :anguished:
+  + :computer: Analisis de varianza
+  + :computer: Prueba LSD
+  + :computer: Prueba Tukey HSD
