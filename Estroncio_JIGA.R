@@ -35,7 +35,7 @@ summary(modelo_anova)
 library(agricolae)
 lsd_resultado <- LSD.test(modelo_anova, "cuerpos_agua", alpha = 0.05, console = TRUE)
 
-# Calcule el valor de LSD con α = 0.05.
+# Calcule el valor de LSD con a = 0.05.
 
 # R = 3.715779 mg/ml
 
